@@ -1,5 +1,5 @@
-João Machado Nascimento 
+João Machado Nascimento
 RM 572364
 
-Vitor Gonçalves de Souza 
+Vitor Gonçalves de Souza
 RM 569023
