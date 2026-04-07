@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TripWay | Reservas/Contato </title>
+</head>
+
+<body>
+    <nav>
+        <a href="../index.html">TripWay | Home </a>
+        <ul>
+            <li><a href="destinos.html">Destinos</a></li>
+            <li><a href="servicos.html">Serviços</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
+
+<main>
+    <section>
+        <header>
+            <h1>Digite aqui as suas informações</h1>
+        </header>
+        <form>
+            <label for="name">Nome</label>
+            <input type="text" id="name" placeholder="Digite o seu nome aqui" required>
+            
+            <p></p>
+            
+            <label for="email">Email</label>
+            <input type="text" id="email" placeholder="contato@seudominio.com.br" required>
+            
+            <p></p>
+
+            <label for="destino">Destino</label>
+            <select id="destino">
+                <option value="Alcatraz">Alcatraz</option>
+                <option value="Guarulhos">Guarulhos</option>
+                <option value="Kolkata">Kolkata</option>
+            </select>
+
+            <p></p>
+
+            <label for="data">Data da viagem</label>
+            <input type="date" id="data" placeholder="DD/MM/AAAA" required>
+
+            <p></p>
+
+            <label for="quantidade">Quantidade de pessoas</label>
+            <input type="number" id="quantidade" placeholder="Ex: 02" required>
+
+            <p></p>
+
+            <button>Enviar informações</button>
+
+        </form>
+    </section>
+</main>
